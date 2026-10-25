@@ -1,0 +1,38 @@
+{
+  "snapshotDate": "2026-10-25",
+  "sources": [
+    {
+      "id": "prasarana-rapid-rail-kl",
+      "url": "https://api.data.gov.my/gtfs-static/prasarana?category=rapid-rail-kl",
+      "status": "schema-planned"
+    },
+    {
+      "id": "ktmb",
+      "url": "https://api.data.gov.my/gtfs-static/ktmb",
+      "status": "schema-planned"
+    }
+  ],
+  "routes": [
+    {
+      "id": "existing-mrt-kajang",
+      "name": "MRT Kajang Line",
+      "mode": "mrt",
+      "source": "prasarana-rapid-rail-kl",
+      "verified": true
+    }
+  ],
+  "stations": [
+    {
+      "id": "existing-stn-kl-sentral",
+      "name": "KL Sentral",
+      "routeIds": ["existing-mrt-kajang"],
+      "verified": true
+    },
+    {
+      "id": "existing-stn-pasar-seni",
+      "name": "Pasar Seni",
+      "routeIds": ["existing-mrt-kajang"],
+      "verified": true
+    }
+  ]
+}
