@@ -1,0 +1,18 @@
+{
+  "id": "my-klang-valley",
+  "name": "Klang Valley (Kuala Lumpur)",
+  "bbox": [101.45, 2.85, 101.95, 3.35],
+  "crs": "EPSG:4326",
+  "datasetVersion": "osm-klang-valley-2026-10-25",
+  "extractedAt": "2026-10-25",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "supportedLayers": [
+    "roads",
+    "highways",
+    "waterways",
+    "existingRailways",
+    "existingTransportRoutes",
+    "existingStations",
+    "placeLabels"
+  ]
+}
